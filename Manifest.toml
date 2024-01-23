@@ -2,7 +2,7 @@
 
 julia_version = "1.10.0"
 manifest_format = "2.0"
-project_hash = "3d7987143350a84d31ff9a36b9bf5bb302202fa8"
+project_hash = "7ee24d4a09d9c372f149a946047da7d06e558b0d"
 
 [[deps.ANSIColoredPrinters]]
 git-tree-sha1 = "574baf8110975760d391c710b6341da1afa48d8c"
@@ -24,6 +24,11 @@ uuid = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
 [[deps.Base64]]
 uuid = "2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
 
+[[deps.BrokenDoctest]]
+path = "BrokenDoctest"
+uuid = "ac000179-e1b3-44d7-a7a6-3bb2cde350b2"
+version = "0.1.0"
+
 [[deps.Dates]]
 deps = ["Printf"]
 uuid = "ade2ca70-3891-5945-98fb-dc099432e06a"
@@ -44,11 +49,6 @@ version = "1.2.1"
 deps = ["ArgTools", "FileWatching", "LibCURL", "NetworkOptions"]
 uuid = "f43a241f-c20a-4ad4-852c-f6b1247861c6"
 version = "1.6.0"
-
-[[deps.Example]]
-git-tree-sha1 = "46e44e869b4d90b96bd8ed1fdcf32244fddfb6cc"
-uuid = "7876af07-990d-54b4-ab0e-23690620f79a"
-version = "0.5.3"
 
 [[deps.Expat_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl"]

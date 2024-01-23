@@ -1,9 +1,11 @@
 module DocumenterModuleProblem
-using Example
+using BrokenDoctest 
+
+export foo
 
 """
-Docstring for `foo`, see also [`hello()`](@ref)
+Docstring for `foo`, see also [`BrokenDoctest.broken()`](@ref)
 """
-foo() = print("Hello World!")
+foo() = print("Is it broken: $(BrokenDoctest.broken())")
 
 end # module DocumenterModuleProblem

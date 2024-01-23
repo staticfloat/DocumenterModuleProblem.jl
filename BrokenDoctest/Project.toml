@@ -1,0 +1,4 @@
+name = "BrokenDoctest"
+uuid = "ac000179-e1b3-44d7-a7a6-3bb2cde350b2"
+authors = ["Elliot Saba <staticfloat@gmail.com>"]
+version = "0.1.0"

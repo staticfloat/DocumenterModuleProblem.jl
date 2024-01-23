@@ -1,6 +1,6 @@
 # Example problem
 
-```docs
+```@docs
 foo
-Example.hello
+BrokenDoctest.broken
 ```

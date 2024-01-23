@@ -1,10 +1,13 @@
 module BrokenDoctest
 
+export broken
+
 """
     broken()
 
 ```jldoctest
-broken() == false
+julia> using BrokenDoctest; broken()
+false
 ```
 """
 broken() = true

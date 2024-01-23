@@ -1,8 +1,11 @@
-using Documenter, DocumenterModuleProblem
+using Documenter, DocumenterModuleProblem, BrokenDoctest
 
 makedocs(;
     sitename = "test",
-    modules = [DocumenterModuleProblem],
+    modules = [
+        DocumenterModuleProblem,
+        #BrokenDoctest,
+    ],
     format=Documenter.HTML(; edit_link=nothing, sidebar_sitename=false, ansicolor=true),
     clean=true,
     pages = [

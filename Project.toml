@@ -1,0 +1,8 @@
+name = "DocumenterProblemExample"
+uuid = "fd3792b1-f2cc-4fae-8090-2c800d496f5d"
+authors = ["Elliot Saba <staticfloat@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+Example = "7876af07-990d-54b4-ab0e-23690620f79a"
